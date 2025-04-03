@@ -1,4 +1,8 @@
 package opgave.MyException;
 
-public class DopingException {
+// Custom exception for doping violations
+class DopingException extends Exception {
+    public DopingException(String message) {
+        super(message);
+    }
 }

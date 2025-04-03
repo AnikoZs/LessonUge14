@@ -1,3 +1,4 @@
+package demo.Interface;
 // Interface GeometricShape
 interface GeometricShape {
     double PI = 3.14; // Definerer pi som en konstant
